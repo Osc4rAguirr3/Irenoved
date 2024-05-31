@@ -1,0 +1,62 @@
+
+//url
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+//variables
+
+$color-nav: rgb(255, 255, 255);
+$color-verde-principal:#4CAF50;
+
+//anidacion
+
+.navbar-nav {
+    justify-content: flex-end;
+    flex-grow: 1;
+    
+    .nav-item {
+    a {
+        color: $color-nav;
+        text-decoration: none;
+        padding: 2rem 1rem;
+
+        &:hover {
+        background-color: $color-verde-principal;
+        }
+
+        &.active {
+        background-color: $color-verde-principal;
+        }
+    }
+    }
+}
+
+.card {
+    width: 18rem;
+    margin: 5rem;
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 1rem;
+
+    .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3c403e;
+    font-family: "Radio Canada Big", sans-serif;
+    }
+}
+}

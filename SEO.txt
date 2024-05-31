@@ -1,0 +1,5 @@
+1 - Mejora en el etiquetado.
+2 - Implementacion de metakey words y description.
+3 - Implementacion de animaciones.
+4 - Organisacion de el codigo con respecto a la pagina.
+5 - Uso y linkeo de SASS, (Organisacion de url uso de las anidaciones y variables.)
